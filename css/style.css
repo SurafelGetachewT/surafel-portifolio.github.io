@@ -393,6 +393,9 @@ h2 {
   line-height: 24px;
   color: #396df2;
 }
+.first-button:hover {
+  cursor: pointer;
+}
 
 .about {
   background-repeat: no-repeat;
