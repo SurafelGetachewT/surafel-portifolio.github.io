@@ -1,5 +1,5 @@
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
   font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
@@ -68,62 +68,45 @@ p {
 
 .works {
   /* Works */
-display: grid;
-row-gap: 88px;
-padding: 12px;
-
-/* Auto layout */
+  display: grid;
+  row-gap: 88px;
+  padding: 12px;
 }
 
 .card {
   /* Card Works */
-
   box-sizing: border-box;
-
-
-/* Auto layout */
-
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
   min-height: 100vh;
   gap: 12px;
-
-
-/* Neutrals/N0 */
-
-  background: #FFFFFF;
-/* Neutrals/N40 */
-
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-
-/* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 1;
   flex-wrap: wrap;
-  justify-items:flex-start
+  justify-items: flex-start;
 }
 
 h2 {
   align-self: flex-start;
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-/* or 138% */
 
+  /* or 138% */
 
-/* Neutrals/N800 */
+  /* Neutrals/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -134,12 +117,11 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
-  
 
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -149,11 +131,10 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -161,20 +142,19 @@ h2 {
 }
 
 .project-title {
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-/* or 138% */
 
+  /* or 138% */
 
-/* Neutrals/N800 */
+  /* Neutrals/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -185,15 +165,13 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
-  
   width: 236px;
   height: 32px;
-  
-  
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -203,12 +181,10 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   gap: 12px;
 
-
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -218,20 +194,19 @@ h2 {
 .canopy {
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-/* identical to box height, or 123% */
 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -242,59 +217,56 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   gap: 12px;
-
   width: 88px;
   height: 32px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 2;
   flex-grow: 0;
 }
-.role-text{
+
+.role-text {
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-/* identical to box height, or 123% */
 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N100 */
+  /* Neutrals/N100 */
 
-  color: #7A869A;
+  color: #7a869a;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.year{
+.year {
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-/* identical to box height, or 123% */
 
+  /* identical to box height, or 123% */
 
-/* Neutrals/N100 */
+  /* Neutrals/N100 */
 
-  color: #7A869A;
+  color: #7a869a;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -302,20 +274,19 @@ h2 {
 }
 
 .secondary-text {
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-/* or 160% */
 
+  /* or 160% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -328,14 +299,12 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
-
   width: 203px;
   height: 24px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 2;
@@ -343,23 +312,21 @@ h2 {
 }
 
 .tag1 {
-/* Tag */
+  /* Tag */
 
-
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
 
+  /* Primary/B50 */
 
-/* Primary/B50 */
-
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -369,22 +336,22 @@ h2 {
 .tag-text {
   /* Button / Small */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   align-items: center;
-/* identical to box height, or 133% */
+
+  /* identical to box height, or 133% */
 
   letter-spacing: 0.03em;
 
-/* Primary/B400 */
+  /* Primary/B400 */
 
-  color: #6070FF;
+  color: #6070ff;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -403,55 +370,31 @@ h2 {
   box-sizing: border-box;
 
   /* Auto layout */
-  
+
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background-color: #FFFFFF;
-  
+  background-color: #fff;
   width: 124px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
-  
+  left: 0;
+  top: calc(50% - 48px / 2);
+
   /* Primary/B400 */
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
-}
-
-.button-text {
-  /* Button /Normal */
-
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-/* identical to box height, or 141% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-/* Primary/B500 */
-
-  color: #396DF2;
-
-
-/* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #396df2;
 }
 
-
 .about {
-
   background-repeat: no-repeat;
   background-image: url(../images/about.png);
   display: flex;
@@ -462,21 +405,18 @@ h2 {
   position: absolute;
 }
 
-
 .top {
-/* TOP */
+  /* TOP */
 
-
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -484,30 +424,29 @@ h2 {
 }
 
 .about-top {
-/* Primary Text */
-
+  /* Primary Text */
 
   width: 327px;
   height: 101px;
 
-/* Header / 2 */
+  /* Header / 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-/* or 130% */
+
+  /* or 130% */
 
   display: flex;
   align-items: center;
 
-/* Neutrals/N800 */
+  /* Neutrals/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -515,28 +454,26 @@ h2 {
 }
 
 .about-text {
-/* Primary Text */
-
+  /* Primary Text */
 
   width: 327px;
   height: 144px;
 
-/* Body / 2 */
+  /* Body / 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-/* or 150% */
 
+  /* or 150% */
 
-/* Neutrals/N600 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -546,15 +483,13 @@ h2 {
 .social-media {
   /* Social Media */
 
-
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 16px;
-
   width: 200px;
   height: 80px;
 }
@@ -562,26 +497,24 @@ h2 {
 .lets {
   /* LET’S CONNECT */
 
-
   width: 117px;
   height: 24px;
 
-/* Body / 2 - Bolder */
+  /* Body / 2 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-/* identical to box height, or 150% */
 
+  /* identical to box height, or 150% */
 
-/* Primary/B300 */
+  /* Primary/B300 */
 
-  color: #7F8CFF;
+  color: #7f8cff;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -591,47 +524,43 @@ h2 {
 .first-button1 {
   /* Normal Button/Secondary/Enabled */
 
-
   box-sizing: border-box;
 
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
   width: 162px;
   height: 48px;
 
-/* Primary/B400 */
+  /* Primary/B400 */
 
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 3;
   flex-grow: 0;
 }
+
 .skill-list {
   /* Skill List */
 
-
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-
+  padding: 0;
   width: 327px;
   height: 464.15px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -641,15 +570,14 @@ h2 {
 .frame12 {
   /* Frame 12 */
 
-
-/* Auto layout */
+  /* Auto layout */
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -661,21 +589,21 @@ h2 {
   height: 24px;
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
 
-/* Body / 1 - Bolder */
+  /* Body / 1 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins' Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-/* identical to box height, or 120% */
+
+  /* identical to box height, or 120% */
 
   display: flex;
-  align-items:flex-start;
-
-  color: #000000;
+  align-items: flex-start;
+  color: #000;
 }
 
 .lang-list {
@@ -687,7 +615,7 @@ h2 {
   gap: 12px;
   align-self: center;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -698,12 +626,12 @@ h2 {
   width: 303px;
   height: 66.72px;
 
-/* Neutrals/N10 */
+  /* Neutrals/N10 */
 
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -714,8 +642,7 @@ h2 {
   width: 327px;
   height: 72px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -726,10 +653,17 @@ h2 {
   width: 327px;
   height: 72px;
 
-
-/* Inside auto layout */
+  /* Inside auto layout */
 
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
 }
