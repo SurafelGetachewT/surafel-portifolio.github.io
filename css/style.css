@@ -399,14 +399,12 @@ h2 {
 }
 
 .about {
-  background-repeat: no-repeat;
-  background-image: url(../images/about.png);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 114px 24px;
-  gap: 24px;
-  position: absolute;
+  box-sizing: border-box;
+  padding: 7.125rem 1.5rem;
+  background-color: #fff;
+  border-top-right-radius: 5rem;
+  background-clip: border-box;
+  background-clip: padding-box;
 }
 
 .top {
