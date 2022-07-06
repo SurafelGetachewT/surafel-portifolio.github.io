@@ -13,30 +13,51 @@
 </head>
 
 <body>
-    <header class="main-section">
-        <section class="toollbar">
-            <nav class="desktop">
-                <div class="all-item">
-                    <a href="#">My Logo</a>
-                </div>
-                <div class="menu-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z" fill="#6070FF"/>
-                        </svg>
-                </div>
-            </nav>
-        </section>
-    </header>
-    <main class = "main-section">
+    <header>
+        <a href="#" class="logo">Surafel</a>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <img class="menu-bar" src="images/hamburger.png" alt="Menu"/>
+        </nav>
+      </header>
+
+    <main>
         <section class="headline-section">
             <h1>I’m Surafel <br> Glad to see you!</h1>
-            <p>I’m a software developer! I can help you build a product , feature or website Look through some of 
+            <p class="about-me">I’m a software developer! I can help you build a product , feature or website Look through some of 
                 my work and experience! If you like what you see and have a project you need coded, 
                 don’t hestiate to contact me.</p>
             <p class="connect">LET'S CONNECT</p>
-            <div class="social-icon">
-                <img src="images/social_media_icons.png" alt>
-            </div>
+            <ul class="social-media">
+                <li>
+                    <a href="https://twitter.com/SuraGetch">
+                      <img src="images/twitter.svg" alt="Twitter"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/surafel-getachew-80155b187/">
+                      <img src="images/linkedin.svg" alt="Linkedin"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <img src="images/medium.svg" alt="Medium"/>
+                    </a>
+                </li>
+                <li><a href="https://github.com/SurafelGetachewT">
+                    <img src="images/github.svg" alt="Github"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="images/angel-list.svg" alt="Angel-List"/>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section class="works">
             <div class="card">
@@ -209,16 +230,39 @@
                     <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through 
                         some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 </div>
-                <div class="social-media">
-                    <div class="support">
-                        <p class="connect">LET’S CONNECT</p>
-                    </div>
+                <div>
+                    <p class="connect">LET’S CONNECT</p>
                 </div>
                 <div>
-                    <img src="images/social.png" alt="">
+                    <ul class="social-media">
+                        <li>
+                            <a href="https://twitter.com/SuraGetch">
+                              <img src="images/twitter.svg" alt="Twitter"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/surafel-getachew-80155b187/">
+                              <img src="images/linkedin.svg" alt="Linkedin"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              <img src="images/medium.svg" alt="Medium"/>
+                            </a>
+                        </li>
+                        <li><a href="https://github.com/SurafelGetachewT">
+                            <img src="images/github.svg" alt="Github"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <img src="images/angel-list.svg" alt="Angel-List"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div>
-                    <button class="first-button">See Project</button>
+                    <button class="resume-btn">Get My Resume</button>
                 </div>
                 <div>
                     <ul class="skill-list">
@@ -253,5 +297,31 @@
             </div>
         </section>
     </main>
+
+    <footer class="main-section">
+        <div class="contact-form">
+          <h2>Contact me</h2>
+          <p>If you have an application you are interested in developing, a feature that you need built 
+            or a project that needs coding. I’d love to help with it </p>
+          <form action="/form" method="post">
+            <ul>
+              <li>
+                <input type="text" placeholder="Yeremias" required maxlength="30">
+              </li>
+              <li>
+                <input type="email" placeholder="natajayanj14@gmail.com" required>
+              </li>
+              <li>
+                <textarea name="message" id="message" cols="30" required rows="10" maxlength="500" placeholder="Write your message here"></textarea>
+              </li>
+              <li>
+                <button type="submit" value="Get It Touch">
+                  Get It Touch
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+    </footer>
 </body>
 </html>
