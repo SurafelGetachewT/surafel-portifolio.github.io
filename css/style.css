@@ -1101,6 +1101,10 @@ form button:hover {
     cursor: pointer;
   }
 
+  .see-project {
+    cursor: pointer;
+  }
+
   .project-title {
     width: 496px;
     height: 46px;
@@ -1213,7 +1217,10 @@ form button:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
+    align-content: center;
+    width: 447px;
+    height: 320px;
+    gap: 12px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1253,6 +1260,34 @@ form button:hover {
     line-height: 24px;
     color: #7f8cff;
     order: 1;
+  }
+
+  .see-project-about {
+    width: 138px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid #6070ff;
+    color: #396df2;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .see-project-about:hover {
+    top: 12px;
+    background: #6070ff;
+    color: #fff;
+    cursor: pointer;
   }
 
   .about-social-media {
@@ -1512,5 +1547,8 @@ form button:hover {
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+  .btn:hover {
+    cursor: pointer;
   }
 }
