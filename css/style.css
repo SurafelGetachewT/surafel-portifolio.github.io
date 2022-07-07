@@ -1065,6 +1065,7 @@ form button:hover {
     top: 12px;
     background: #6070ff;
     color: #fff;
+    cursor: pointer;
   }
 
   .see-project:active {
@@ -1101,9 +1102,7 @@ form button:hover {
     cursor: pointer;
   }
 
-  .see-project {
-    cursor: pointer;
-  }
+
 
   .project-title {
     width: 496px;
@@ -1548,6 +1547,7 @@ form button:hover {
     order: 0;
     flex-grow: 0;
   }
+
   .btn:hover {
     cursor: pointer;
   }
