@@ -50,6 +50,19 @@ header {
   color: #6070ff;
   font-family: "Poppins", sans-serif;
   padding-left: 30px;
+  animation-name: rotate-logo;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translate(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
 }
 
 .menu {
@@ -1544,9 +1557,15 @@ form button:hover {
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: background 2s, color 2s;
   }
 
   .btn:hover {
     cursor: pointer;
+    background-color: #253858;
+  }
+
+  .portifolio-image img:hover {
+    transform: scale(1.2);
   }
 }
