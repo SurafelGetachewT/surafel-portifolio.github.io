@@ -1548,5 +1548,6 @@ form button:hover {
 
   .btn:hover {
     cursor: pointer;
+    background-color: #253858;
   }
 }
