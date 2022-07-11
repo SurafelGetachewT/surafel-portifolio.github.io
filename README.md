@@ -1,7 +1,7 @@
 # My-Portfolio
 
-> Portfolio: Mobile Version and Desktop version
-**This is a setup of mobile version and desktop version for potifolio website created by using the template provided in Figma.**
+> Portfolio: Deploy Mobile Version and Desktop version of portfolio to GitHub pages.
+**This is to deploy Mobile version and Desktop version of My portifolio website which is created by using the template provided in Figma to GitHub Pages**
 
 ## Built With
 
@@ -21,6 +21,9 @@
 - GitHub: [@SurafelGetachewT](https://github.com/SurafelGetachewT)
 - Twitter: [@SuraGetch](https://twitter.com/SuraGetch)
 - LinkedIn:  [Linkedin](https://www.linkedin.com/in/surafel-getachew-80155b187/)
+
+## My Portfolio
+- Portfolio Site: https://surafelgetachewt.github.io/surafel-portifolio.github.io/
 
 ## 🤝 Contributing
 
