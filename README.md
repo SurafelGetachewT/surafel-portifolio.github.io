@@ -1,7 +1,7 @@
 # My-Portfolio
 
 > Portfolio: Deploy Mobile Version and Desktop version of portfolio to GitHub pages.
-**This is to deploy mobile version and desktop version of My portifolio website which is created by using the template provided in Figma to GitHub Pages**
+**This is to deploy Mobile version and Desktop version of My portifolio website which is created by using the template provided in Figma to GitHub Pages**
 
 ## Built With
 
